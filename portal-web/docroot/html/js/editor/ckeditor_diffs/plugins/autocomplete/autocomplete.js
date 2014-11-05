@@ -401,7 +401,7 @@
 
 			var editor = instance.get('editor');
 
-			editor.fire('saveSnapshot');
+			//editor.fire('saveSnapshot');
 		}
 	};
 

@@ -109,7 +109,7 @@ response.setContentType(ContentTypes.TEXT_JAVASCRIPT);
 					});
 				},
 				term: '@',
-				tplReplace: '<div style="height: 315px;"><iframe data-duration="{duration}" data-likes="{likes}" data-rating="{rating}" data-views="{views}" data-favorites="{favorites}" data-comments="{comments}" width="420" height="315" src="//www.youtube.com/embed/{id}?rel=0" frameborder="0" allowfullscreen style="display: block; margin: auto;"></iframe></div>',
+				tplReplace: '<div style="height: 315px;"><iframe data-duration="{duration}" data-likes="{likes}" data-rating="{rating}" data-views="{views}" data-favorites="{favorites}" data-comments="{comments}" width="420" height="315" src="//www.youtube.com/embed/{id}?rel=0" frameborder="0" allowfullscreen style="display: block;"></iframe></div>',
 				tplResults: '<div class="container-fluid"><div class="col-md-3"><img style="height: 40px;" src="{thumbnail}" /></div><div class="col-md-9">{title}</div></div>'
 			}
 		]

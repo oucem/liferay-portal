@@ -49,7 +49,7 @@ YUI.add('button-details', function(Y) {
                 detailsElement.setAttribute('id', detailsElementId);
                 detailsElement.style.position = 'absolute';
                 detailsElement.style.top = '0';
-                detailsElement.style.right = '200px';
+                detailsElement.style.left = '450px';
                 detailsElement.innerHTML = details;
 
                 element.$.parentNode.style.position = 'relative';
