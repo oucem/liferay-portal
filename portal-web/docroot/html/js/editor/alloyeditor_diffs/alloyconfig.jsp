@@ -69,7 +69,7 @@ response.setContentType(ContentTypes.TEXT_JAVASCRIPT);
 
 	var toolbars = {
 		default: {
-			add: ['imageselector'],
+			add: ['imageselector', 'speech'],
 			image: ['left', 'right', 'rotate', 'filter'],
 			styles: ['strong', 'em', 'u', 'h1', 'h2', 'a', 'twitter'],
 			youtube: ['rotate', 'filter', 'details']

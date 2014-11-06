@@ -136,6 +136,13 @@ if (alloyEditorMode.equals("text")) {
 										'aui-base',
 										'button-base'
 									]
+								},
+								'button-speech': {
+									path: 'buttons/button_speech.js',
+									requires: [
+										'aui-base',
+										'button-base'
+									]
 								}
 							},
 							root: Liferay.AUI.getJavaScriptRootPath() + '/editor/alloyeditor/'
