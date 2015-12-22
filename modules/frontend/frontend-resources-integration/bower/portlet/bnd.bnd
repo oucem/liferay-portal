@@ -1,0 +1,9 @@
+Bundle-Name: Liferay Bower Demo Portlet Web
+Bundle-SymbolicName: com.liferay.frontend.resources.integration.bower.web
+Bundle-Version: 1.0.0
+Include-Resource:\
+	META-INF/resources=src/main/resources/META-INF/resources,\
+	classes,\
+	bower.json
+JS-Config: /META-INF/resources/config.js
+Web-ContextPath: /frontend-resources-integration-bower-web

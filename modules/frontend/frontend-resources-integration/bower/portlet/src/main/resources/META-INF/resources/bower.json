@@ -1,0 +1,16 @@
+{
+  "name": "bower_standalone",
+  "description": "A bower standalone demo",
+  "main": "index.js",
+  "authors": [
+    "Chema Balsas <jose.balsas@liferay.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jbalsas/liferay-portal",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "react": "~0.14.3",
+    "fetch": "~0.10.1"
+  }
+}
