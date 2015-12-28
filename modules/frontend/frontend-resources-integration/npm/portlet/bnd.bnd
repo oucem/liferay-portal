@@ -1,0 +1,7 @@
+Bundle-Name: Liferay NPM Demo Portlet Web
+Bundle-SymbolicName: com.liferay.frontend.resources.integration.npm.web
+Bundle-Version: 1.0.0
+Include-Resource:\
+	META-INF/resources=src/main/resources/META-INF/resources,\
+	classes
+Web-ContextPath: /frontend-resources-integration-npm-web
