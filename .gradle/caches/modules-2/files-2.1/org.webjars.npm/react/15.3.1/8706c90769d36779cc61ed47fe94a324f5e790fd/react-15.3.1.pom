@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <packaging>jar</packaging>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>react</artifactId>
+    <version>15.3.1</version>
+    <name>react</name>
+    <description>WebJar for react</description>
+    <url>http://webjars.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <scm>
+        <url>git+https://github.com/facebook/react</url>
+        <connection>git+https://github.com/facebook/react.git</connection>
+        <developerConnection>git+https://github.com/facebook/react.git</developerConnection>
+        <tag>v15.3.1</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>webjars</id>
+            <url>http://webjars.org</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        
+        <license>
+            <name>BSD-3-Clause</name>
+            <url>https://spdx.org/licenses/BSD-3-Clause#licenseText</url>
+            <distribution>repo</distribution>
+        </license>
+        
+    </licenses>
+
+    <dependencies>
+        
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>fbjs</artifactId>
+            <version>[0.8.4,0.9)</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>loose-envify</artifactId>
+            <version>[1.1.0,2)</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>object-assign</artifactId>
+            <version>[4.1.0,5)</version>
+        </dependency>
+        
+    </dependencies>
+
+</project>
